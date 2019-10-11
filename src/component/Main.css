@@ -30,4 +30,18 @@ button:hover{
         width: 100px;
         height:100px;
 }
+@media (max-width: 450px)
+{
+    .flex{
+        width: 390px;
+        
+    }
+    #input 
+    {
+        width:100% !important;
+     
+    }
+   
+}
+
 

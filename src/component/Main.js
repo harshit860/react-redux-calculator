@@ -133,39 +133,39 @@ class Main extends React.Component {
         console.log(this.state.history)
         return (
             <div>
-                <div style={{ width: "500px", marginLeft: "800px", marginTop: "30px" }}>
-                    <input style={{ fontSize: "30px", marginLeft: "0px", width: "500px", height: "50px" }} value={this.state.value}></input>
+                <div style={{ width: "500px",  marginTop: "30px" }}>
+                    <input id={"input"} style={{ fontSize: "30px",  width: "500px", height: "50px" }} value={this.state.value}></input>
                     <h3>{this.state.operand1}</h3>
                     <h3>{this.state.operation}</h3>
                     <h3>{this.state.value}</h3>
                     <h1 style={{fontSize:"50px"}}>{this.props.ans1 != null ? (this.props.ans1) : ('')}</h1>
                 </div>
-                <div style={{ marginLeft: "780px", marginTop: "20px" }}>
+                <div style={{ marginTop: "20px" }}>
 
                     <div className="flex">
                         <button onClick={() => this.handleClick(1)}>1</button>
                         <button onClick={() => this.handleClick(2)}>2</button>
                         <button onClick={() => this.handleClick(3)}>3</button>
-                        <button onClick={() => this.handleClick("+")} style={{ width: "200px", fontSize: "50px", backgroundColor: "grey", color: "white" }}>+</button>
+                        <button onClick={() => this.handleClick("+")} style={{ width: "130px", fontSize: "50px", backgroundColor: "grey", color: "white" }}>+</button>
                     </div>
                     <div className="flex">
                         <button onClick={() => this.handleClick(4)}>4</button>
                         <button onClick={() => this.handleClick(5)}>5</button>
                         <button onClick={() => this.handleClick(6)}>6</button>
-                        <button onClick={() => this.handleClick("-")} style={{ width: "200px", fontSize: "50px", backgroundColor: "grey", color: "white" }}>-</button>
+                        <button onClick={() => this.handleClick("-")} style={{ width: "130px", fontSize: "50px", backgroundColor: "grey", color: "white" }}>-</button>
                     </div>
                     <div className="flex">
                         <button onClick={() => this.handleClick(7)}>7</button>
                         <button onClick={() => this.handleClick(8)}>8</button>
                         <button onClick={() => this.handleClick(9)}>9</button>
-                        <button onClick={() => this.handleClick("x")} style={{ width: "200px", fontSize: "50px", backgroundColor: "grey", color: "white" }}>x</button>
+                        <button onClick={() => this.handleClick("x")} style={{ width: "130px", fontSize: "50px", backgroundColor: "grey", color: "white" }}>x</button>
                     </div>
                     <div className="flex">
 
-                        <button onClick={() => this.handleClick("=")} style={{ width: "100px", fontSize: "50px", backgroundColor: "grey", color: "white" }}>=</button>
+                        <button onClick={() => this.handleClick("=")} style={{ width: "130px", fontSize: "50px", backgroundColor: "grey", color: "white" }}>=</button>
                         <button onClick={() => this.handleClick(0)}>0</button>
                         <button onClick={() => this.handleClick("del")} style={{ width: "100px", fontSize: "30px", backgroundColor: "grey", color: "white" }}>DEL</button>
-                        <button onClick={() => this.handleClick("/")} style={{ width: "200px", fontSize: "50px", backgroundColor: "grey", color: "white" }}>/</button>
+                        <button onClick={() => this.handleClick("/")} style={{ width: "130px", fontSize: "50px", backgroundColor: "grey", color: "white" }}>/</button>
                     </div>
 
                     <div className="flex">
