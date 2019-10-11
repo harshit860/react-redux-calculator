@@ -1,0 +1,33 @@
+.blue
+{
+    color:red
+}
+.flex
+{
+    display:flex;
+    flex-direction: row;
+    width: 1000px;
+    margin-top: 10px;
+
+}
+.flex button
+{
+    margin-left: 10px;
+    width: 100px;
+    height:100px;
+    border: 1px white solid;
+    background-color: orange;
+    color:white ;
+    font-size: 30px;
+
+}
+
+button:hover{
+        border:2px solid orange;
+        background-color: white;
+        color:black;
+        font-size:50px;
+        width: 100px;
+        height:100px;
+}
+
