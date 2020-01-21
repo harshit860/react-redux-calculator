@@ -1,2 +1,2 @@
 ## React-Redux Calculator
-![](https://harshit-redux-calcy.netlify.com/)
+![](https://i.imgur.com/4mpJ1rr.png)
